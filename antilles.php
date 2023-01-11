@@ -128,7 +128,15 @@ include('header.php');
           <br><br>
           <p class="text-center" style="font-size: 2rem;">Architectural Request</p>
           <br>
-          <a class="btn btn-dark btn-lg" role="button" href="documents/<?php echo $_COOKIE['imageDirectoryName']; ?>/aRequest.pdf" download="poolRules.pdf" style="background-color: #183b64 !important; border-outline: none;">Download</a>
+          <div class="dropdown">
+            <button class="btn btn-dark btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #183b64 !important;">
+              Please Select
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="documents/<?php echo $_COOKIE['imageDirectoryName']; ?>/aRequest.pdf" download="aRequest.pdf">Architectural Request</a>
+              <a class="dropdown-item" href="documents/<?php echo $_COOKIE['imageDirectoryName']; ?>/outdoors.pptx" download="outdoors.pptx">Outdoors</a>
+            </div>
+          </div>
         </div>
         <div class="col-sm text-center">
           
