@@ -101,7 +101,11 @@ include('header.php');
           <a class="btn btn-dark btn-lg" role="button" href="documents/<?php echo $_COOKIE['imageDirectoryName']; ?>/purchaseApplication.pdf" download="purchaseApplication.pdf" style="background-color: #183b64 !important; border-outline: none;">Download</a>
         </div>
         <div class="col-sm text-center">
-          
+        <span><i class="far fa-file-alt fa-7x" style="color: #183b64 !important;"></i></span>
+          <br><br>
+          <p class="text-center" style="font-size: 2rem;">Architectural Request</p>
+          <br>
+          <a class="btn btn-dark btn-lg" role="button" href="documents/<?php echo $_COOKIE['imageDirectoryName']; ?>/ArchitecturalRequest.pdf" download="ArchitecturalRequest.pdf" style="background-color: #183b64 !important; border-outline: none;">Download</a>
         </div>
         
       </div>
